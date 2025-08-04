@@ -1,18 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import json
 from django.contrib.auth.models import UserManager, AbstractUser
 from django.db import models
 from django.utils.translation import gettext_lazy as _
