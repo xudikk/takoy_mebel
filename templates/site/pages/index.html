@@ -1,5 +1,7 @@
-{% extends "site/base.html" %} 
+{% extends "site/base.html" %}
 {% load static %}
+
+{% block title %} Home {% endblock %}
 
 {% block content %}
 
@@ -317,7 +319,7 @@
       <div class="promo-block">
         <div class="promo-big">
           <div class="promo-item">
-            <img src="{% static 'images/media/promo1.jpg' %}' %}" alt="" />
+            <img src="{% static 'images/media/promo1.jpg' %}" alt="" />
             <div class="promo-info">
               <div class="promo-category">Еврокнижка</div>
               <div class="promo-name"><a href="">Фиджи</a></div>
@@ -398,4 +400,4 @@
   </div>
 </section>
 
-{% endblock content %}
+{% endblock %}
