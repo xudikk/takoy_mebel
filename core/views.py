@@ -9,7 +9,7 @@ from django.shortcuts import render
 def index(request):
     
     ctx={}
-    return render(request,'site/pages/index.html', ctx)
+    return render(request, 'site/pages/index.html', ctx)
 
 
 
